@@ -3,9 +3,9 @@
 """
 think|haus gcode inkscape extension
 -----------------------------------
-Maintained by Peter Rogers (peter.rogers@gmail.com)
-Customized to suit our needs at thinkhaus.org (see change log below)
-Based on a script by Nick Drobchenko from the CNC club
+Maintained by Rick Pannen (pannen@gmail.com)
+Customized to suit our needs at attraktor.org (see change log below)
+Based on a script by Nick Drobchenko from the CNC club and Peter Rogers at thinkhaus.org
 
 ***
 
@@ -31,6 +31,11 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 """
 
 """
+Changelog 2013-03-25 - ROP:
+* Changed on/off code for our lasercutter
+* Changed default settings
+* Added G0 to X0 Y0 in footer
+
 Changelog 2012-01-12 - PAR:
 * fixed bug in compile_paths when dealing with empty node data
 
