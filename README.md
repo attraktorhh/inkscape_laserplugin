@@ -12,4 +12,4 @@ The default values are OK for engraving. For cutting adjust the feedrate to 100-
 
 In order to have stuff lasered in the right order put them on separate layers. Lower layers will be lasered first. If you want to override the feedrate for a layer name it in the following way: "LAYERNAME [feed=150]".
 
-There is an additional plugin called eggbot_hatch from the eggbot project (http://egg-bot.com) included. It can put lines into closeds paths - that way you can engrave solid black or striped objects.
+There is an additional plugin called eggbot_hatch from the eggbot project (http://egg-bot.com) included. It can put lines into closed paths - that way you can laser solid black or striped objects.
