@@ -833,15 +833,8 @@ class Gcode_tools(inkex.Effect):
 
         gcode = self.header;
 
-        if (self.options.unit == "mm"):
-            self.unitScale = 0.282222
-            gcode += "G21 (All units in mm)\n"
-        elif (self.options.unit == "in"):
-            self.unitScale = 0.011111
-            gcode += "G20 (All units in in)\n"
-        else:
-            inkex.errormsg(_("You must choose mm or in"))
-            return
+        self.unitScale = 0.282222
+        gcode += "G21 (All units in mm)\n"
 
         if not self.options.generate_not_parametric_code:
             gcode += """
